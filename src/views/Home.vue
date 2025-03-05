@@ -32,8 +32,8 @@ const installApp = () => {
           <div class="border rounded fit-content px-3 py-2">
             <img src="/egg.png" alt="Egg Logo" width="125" height="125" />
           </div>
-          <h1 class="text-h5 font-weight-black">Egg Size</h1>
-          <p class="text-caption text-none text-caption-medium">Calculate and classify egg size by using Canny Edge Detection Algorithm and Aruco Marker.</p>
+          <h1 class="text-h5 font-weight-black mt-1 mb-2">Egg Sizing</h1>
+          <p class="text-caption text-none text-caption-medium">Performance Evaluation of Canny Edge Detection and Machine Learning for Egg Sizing: Implementation of a Mobile Application and Single-line Flow Machine</p>
           <v-icon aria-label="Arrow Down" icon="mdi-arrow-down-thin" role="img" aria-hidden="false" size="x-large" />
         </div>
         <div class="d-flex justify-center align-center flex-column">

@@ -15,7 +15,7 @@ export default defineConfig({
     },
 
     manifest: {
-      name: 'Egg Size',
+      name: 'Egg Sizing',
       short_name: 'egg-size-mobile',
       description: 'Canny Edge Detection with Aruco Marker',
       start_url: '/capture',

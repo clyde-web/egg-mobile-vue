@@ -42,7 +42,7 @@ const router = createRouter({
             name: 'capture',
             component: Capture,
             meta: {
-                requiresPWA: false
+                requiresPWA: true
             }
         }
     ]
