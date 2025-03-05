@@ -56,10 +56,8 @@
       if (response.status === 200) {
         image2.value = response.data.image
         if (response.data.width && response.data.height) {
-          const width = Math.round(response.data.width * 100) / 100;
-          const height = Math.round(response.data.height * 100) / 100;
-          result.value.width = width
-          result.value.height = height
+          result.value.width = response.data.width
+          result.value.height = response.data.height
           result.value.classification = response.data.classification
           result.value.isLoading = false
         }
